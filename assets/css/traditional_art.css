@@ -1,0 +1,701 @@
+
+
+    body{
+        background-color: black;
+        padding: 0px;
+        margin: 0px;
+        font-family: raleway, sans-serif;;
+        color: white;
+    }
+
+    .header1{
+        grid-area: header1;
+        color: rgb(255, 255, 255);
+        font-size: 4em;
+        font-family: Raleway;
+        font-weight: 400;
+        padding-top: 100px;
+        text-align: left;
+        padding-left: 120px;
+        text-shadow: 5px 5px 15px rgb(0, 0, 0);
+    }
+    .header{
+        grid-area: header;
+        padding: 10px;
+    }
+
+    .bodyimage{
+        background-image:url("../images/art-body1.png");
+        padding: 0px;
+        background-size: cover;
+        margin: 0;
+        border-bottom: 1px grey solid;
+        
+    }
+
+    .to-be{
+        padding-top: 250px;
+        padding-left: 60%;
+        
+        color: rgb(0, 0, 0);
+        text-shadow: 3px 3px 5px rgb(141, 141, 141);
+    }
+
+    h2{
+        font-family: raleway;
+        font-weight: 600;
+        margin: 0px;
+        font-size: 4.3em;
+        padding-top: 0;
+    }/*desc*/
+
+    h4{
+        font-family: raleway;
+        font-weight: 400;
+        padding: 0px;
+        padding-left: 48%;
+        margin: 0px;
+        font-size: 1.1em;
+        text-align: center;
+        line-height: 1.4;
+        color: black;
+        padding-bottom: 350px;
+    }/*notes*/
+
+    #bigger{
+        font-size: 1.7em;
+        line-height: 0.8;
+    }
+    
+    #title{
+        color:rgb(197, 197, 197);
+        font-size: 1.6em;
+        padding-bottom: 5px;
+    }
+    #tools{
+        color: rgb(182, 97, 175);
+
+    }
+
+    .select{
+        grid-area: select;
+       font-size: 0.3em;
+       font-family: raleway;
+        font-weight: 400;
+        color: rgb(216, 216, 216);
+        line-height: 1;
+        text-align: center;
+        border-bottom: solid rgb(255, 255, 255) 1px;
+        text-shadow: 5px 5px 8px rgb(0, 0, 0);
+        padding: 30px;
+        padding-top: 20px;
+        padding-left: 40px;
+
+   }
+
+    .header-container{
+        background-image: url("../images/artheader1.png");
+        background-size: cover;
+        display: grid;
+        grid-template-columns: 33.33% 33.33% 33.33%;
+        grid-template-areas: 
+        'header1 header1 header1'
+        'select select select'
+    }
+
+    #heavy{
+        font-size: 1.1em;
+        font-weight: 400;
+    }
+
+    .opening{
+        grid-area: opening;
+        color: rgb(223, 223, 223);
+        font-size: 1.2em;
+        font-family: Raleway;
+        font-weight: 300;
+        text-align: left;
+        padding-left: 50px;
+        padding-top: 40px;
+        padding-bottom: 50px;
+        line-height: 1.4;
+        border-bottom: 1px white solid;
+    }
+
+    .topnav{
+        text-align: right;
+        font-family: raleway;
+        color: white;
+        background-color: black;
+        height: 40px;
+        margin: 0px;
+        padding: 5px;
+        padding-right: 20px;
+        padding-top: 20px;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        font-size: 1.2em;
+        font-weight: 400;
+        line-height: 1.1;
+    }
+
+    /* -------------WEBPAGES, POSTERS, DIGITAL SKETCHES or ARTWORKS -------------*/
+
+
+    /* webpages sections: image/vid + desc + color scheme + notes */
+    .artworks-container{
+        display: grid;
+        grid-template-columns: 5% 18% 18% 18% 18% 18% 5%;
+        grid-template-areas:
+        'space1 header header header header header space2'
+        'space1 modal1 modal1 modal3 modal4 modal5 space2'
+        'space1 modal7 modal8 modal9 modal10 modal10 space2'
+        'space1 modal13 modal14 modal14 modal16 modal17 space2'
+        'space1 modal19 modal20 modal21 modal22 modal22 space2'
+        ;
+        
+    } 
+
+    .space1{
+        grid-area: space1;
+        background-color: rgb(0, 0, 0);
+    }
+    .space2{
+        grid-area: space2;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .modal1{
+        grid-area: modal1;
+        padding: 10px;
+        padding-bottom: 20px;
+        background-color: black;
+    }
+
+    /*
+    .modal2{
+        grid-area: modal2;
+        padding: 10px;
+        padding-bottom: 20px;
+        background-color: black;
+    }
+    */
+
+    .modal3{
+        grid-area: modal3;
+        padding: 10px;
+        padding-bottom: 20px;
+        background-color: black;
+        
+    }
+    .modal4{
+        grid-area: modal4;
+        padding: 10px;
+        padding-bottom: 20px;
+        background-color: black;
+        
+    }
+    .modal5{
+        grid-area: modal5;
+        padding: 10px;
+        padding-bottom: 20px;
+        background-color: black;
+        
+    }
+    .modal7{
+        grid-area: modal7;
+        padding: 10px;
+        padding-bottom: 20px;
+        background-color: black;
+        
+    }
+ 
+    .modal8{
+        grid-area: modal8;
+        padding: 10px;
+        padding-bottom: 20px;
+        background-color: black;
+        
+    }
+
+    .modal9{
+        grid-area: modal9;
+        padding: 10px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        background-color: black;
+        
+    }
+   
+
+    .modal10{
+        grid-area: modal10;
+        padding: 10px;
+        padding-bottom: 20px;
+        background-color: black;
+        
+    }
+    /*
+    .modal11{
+        grid-area: modal11;
+        padding: 10px;
+        padding-bottom: 20px;
+        background-color: black;
+        
+    }*/
+
+    .modal13{
+        grid-area: modal13;
+        padding: 10px;
+        padding-bottom: 20px;
+        background-color: black;
+        
+    }
+    .modal14{
+        grid-area: modal14;
+        padding: 10px;
+        padding-bottom: 20px;
+        background-color: black;
+        
+    }
+    /*
+    .modal15{
+        grid-area: modal15;
+        padding: 10px;
+        padding-bottom: 20px;
+        background-color: black;
+        
+    }
+    */
+    .modal16{
+        grid-area: modal16;
+        padding: 20px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        background-color: black;
+        
+    }
+    .modal17{
+        grid-area: modal17;
+        padding: 20px;
+        padding-bottom: 20px;
+        background-color: black;
+        
+    }
+    .modal19{
+        grid-area: modal19;
+        padding: 20px;
+        padding-bottom: 20px;
+        background-color: black;
+        
+    }
+    .modal20{
+        grid-area: modal20;
+        padding: 20px;
+        padding-bottom: 20px;
+        background-color: black;
+        
+    }
+    .modal21{
+        grid-area: modal21;
+        padding: 20px;
+        padding-bottom: 20px;
+        background-color: black;
+        
+    }
+    .modal22{
+        grid-area: modal22;
+        padding: 20px;
+        padding-bottom: 20px;
+        background-color: black;
+        
+    }
+    /*
+    .modal23{
+        grid-area: modal23;
+        padding: 5px;
+        padding-bottom: 20px;
+        background-color: black;
+        
+    }
+    */
+
+    
+/* Styles the thumbnail */
+
+
+    /* ------ end of modals ------ */
+
+
+
+    h3{
+        font-family: raleway;
+        font-weight: 300;
+        padding: 10px;
+        margin: 0px;
+        font-size: 1em;
+        line-height: 1.4;
+        text-align: left;
+    }/*text*/
+
+
+    img{
+        object-fit: contain;
+        border: none;
+        outline: none;
+        margin: 0;
+        width: 100%;
+    }
+
+    h1{
+        font-family: raleway;
+        font-size: 2em;
+        padding: 20px;
+        text-align: center;
+        padding-left: 50px;
+        margin: 0px;
+        color: rgb(207, 207, 207); 
+        outline: none;
+        font-weight: 300;
+    }
+
+
+/*-----------------------------*/
+
+a:link {
+       color: white;
+       text-decoration: none;
+  
+   }
+
+   a:visited {
+       color: rgb(255, 255, 255);
+       text-decoration: none;
+
+   }
+
+   a:hover {
+       color: rgb(138, 138, 138);
+       text-decoration: underline;
+
+   }
+
+   a:active {
+       color: rgb(255, 255, 255);
+       text-decoration: none;
+   }
+
+/*---- MODALS ------------------*/
+
+#myImg1 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+  }
+
+    
+  #myImg1:hover {
+    opacity: 0.7;
+  }
+
+  #myImg2 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+    
+  }
+
+    
+  #myImg2:hover {
+    opacity: 0.7;
+  }
+
+  #myImg3 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+    
+  }
+    
+  #myImg3:hover {
+    opacity: 0.7;
+  }
+
+  #myImg4 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+    
+  }
+    
+  #myImg4:hover {
+    opacity: 0.7;
+  }
+
+  #myImg5 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+
+  }
+    
+  #myImg5:hover {
+    opacity: 0.7;
+  }
+
+  
+  #myImg6 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+
+  }
+    
+  #myImg6:hover {
+    opacity: 0.7;
+  }
+
+
+
+  #myImg7 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+   
+  }
+  
+  #myImg7:hover {
+    opacity: 0.7;
+  }
+
+  #myImg8 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+  }
+    
+  #myImg8:hover {
+    opacity: 0.7;
+  }
+  #myImg9 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+  
+  }
+    
+  #myImg9:hover {
+    opacity: 0.7;
+  }
+
+  #myImg10 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+  }
+    
+  #myImg10:hover {
+    opacity: 0.7;
+  }
+  #myImg11 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+    
+  }
+    
+  #myImg11:hover {
+    opacity: 0.7;
+  }
+
+
+  #myImg13 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+   
+  }
+    
+  #myImg13:hover {
+    opacity: 0.7;
+  }
+
+  #myImg14 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+
+  }
+    
+  #myImg14:hover {
+    opacity: 0.7;
+  }
+
+  #myImg15 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+   
+  }
+    
+  #myImg15:hover {
+    opacity: 0.7;
+  }
+
+  #myImg16 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+
+  }
+    
+  #myImg16:hover {
+    opacity: 0.7;
+  }
+
+  #myImg17 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+
+  }
+    
+  #myImg17:hover {
+    opacity: 0.7;
+  }
+
+  #myImg19 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+  
+  }
+    
+  #myImg19:hover {
+    opacity: 0.7;
+  }
+
+  #myImg20 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+    
+  }
+    
+  #myImg20:hover {
+    opacity: 0.7;
+  }
+  #myImg21 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+    
+  }
+    
+  #myImg21:hover {
+    opacity: 0.7;
+  }
+  #myImg22 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+   
+  }
+    
+  #myImg22:hover {
+    opacity: 0.7;
+  }
+  #myImg23 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+
+  }
+    
+  #myImg23:hover {
+    opacity: 0.7;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    max-height: 80%;
+  }
+  
+
+  /* Add Animation */
+  .modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  

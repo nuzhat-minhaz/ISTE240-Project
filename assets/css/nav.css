@@ -1,0 +1,49 @@
+/**
+  * @author: NUZHAT MINHAZ nxm1137
+  * FINAL INDIVIDUAL PROJECT: ISTE 240.01 Professor Takats
+  * NAVBAR CSS
+  */
+
+
+.subnav .nav>li{
+    width:auto;
+    vertical-align:top;
+    float:left;
+    border-bottom:4px solid transparent;
+    padding-bottom:10px;
+    -webkit-transition:border-bottom 0.5s ease;
+    -moz-transition:border-bottom 0.5s ease;
+    -ms-transition:border-bottom 0.5s ease;
+    -o-transition:border-bottom 0.5s ease;
+    transition:border-bottom 0.5s ease;
+    cursor:pointer;
+}
+.subnav .nav>li>a{
+    display:block;
+    font-size:16px;
+    position:relative;
+    color:#ffd6d6;
+    margin:0;
+    padding:0px 20px;
+    line-height:36px;
+    border-right:1px solid #e0e0e0;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;
+}
+.subnav .nav>.active>a,.subnav .nav>.active>a:hover{
+    color:#da7474;
+    text-shadow:none;
+    background-color:rgba(56, 56, 56, 0.568);
+}
+
+.subnav .nav li:hover,.subnav .nav>.active{
+    border-bottom:4px solid #bb0000;
+}
+
+.subnav,body>.content{
+    float:none;
+    width:auto;
+    margin-left:20px;
+    margin-right:20px;
+}
